@@ -1,0 +1,9 @@
+<h1> hola <h1>
+<hr>
+<form class="" action="." method="post">
+    {{ form }}
+      {{ form.text.label }}
+      {{ form.text }}
+      {% if form.text.error %}
+      {{ form.text.error }}
+    {{/form}
